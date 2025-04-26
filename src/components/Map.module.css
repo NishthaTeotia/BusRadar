@@ -1,0 +1,42 @@
+
+
+.mapContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .busList {
+    width: 35%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+  }
+  
+  .busHeading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+font-size:2rem;
+    font-weight:bold;
+  }
+  
+  .busItems {
+    display: flex;
+    flex-direction: column;
+  
+    gap: 1rem;
+  }
+  
+  .busCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .leafletMap {
+    width: 65%;
+    height: 100vh;
+  }
+  
